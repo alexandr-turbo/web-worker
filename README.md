@@ -1,3 +1,3 @@
 # web-workers
 
-Integrating dedicated and shared service workers
+To start run 'npm start'

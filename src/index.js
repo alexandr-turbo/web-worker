@@ -20,6 +20,7 @@ window.onload = function() {
 restart.addEventListener("click", () => {
   dedicatedWorker.terminate();
   dedicatedWorker = undefined;
+  result.innerHTML = 'stopped, waiting 5 seconds to restart';
   // startCalculating();
   setTimeout(() => startCalculating(), 5000)
 });
