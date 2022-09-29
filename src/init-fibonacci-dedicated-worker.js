@@ -1,5 +1,5 @@
 const initFibonacciDedicatedWorker = (onSuccess) => {
-  const worker = new Worker("./workers/get-nth-fibonacci-number.worker.js", {
+  const worker = new Worker("./workers/get-fibonacci-number.worker.js", {
     type: "module",
   });
   worker.onmessage = (event) => {
